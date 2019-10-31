@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /api/v1
+  port: 8443
+  ssl:
+    key-store-type: PKCS12
+    key-store: classpath:keystore/financialhouse-keystore.p12
+    key-store-password: financialhouse
+    key-alias: TOMCAT
+jwt:
+  secret: jwtsecret
+  expiration : 300
+api-user:
+  username: demo@financialhouse.io
+  password: cjaiU8CV8443
+spring:
+  application:
+    name: report-service
+  h2:
+    console:
+      enabled: true
