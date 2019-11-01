@@ -4,7 +4,7 @@ server:
   port: 8443
   ssl:
     key-store-type: PKCS12
-    key-store: classpath:keystore/financialhouse-keystore.p12
+    key-store: classpath:keystore/key.p12
     key-store-password: financialhouse
     key-alias: TOMCAT
 jwt:
