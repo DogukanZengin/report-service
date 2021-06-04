@@ -35,7 +35,7 @@
         <dependency.jupiter.engine.version>5.4.2</dependency.jupiter.engine.version>
         <dependency.jupiter.params.version>5.4.2</dependency.jupiter.params.version>
         <dependency.hamcrest.version>2.1</dependency.hamcrest.version>
-        <dependency.httpclient.version>4.5.9</dependency.httpclient.version>
+        <dependency.httpclient.version>4.5.13</dependency.httpclient.version>
         <dependency.lombok.version>1.18.8</dependency.lombok.version>
 
         <plugin.maven.failsafe.version>2.22.0</plugin.maven.failsafe.version>
